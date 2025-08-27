@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  background: #ffffff;
+  color: #000;
+}
+
+#pagina {
+  width: 1900px;
+  margin: 0 auto;
+}
+
+
+#header {
+    width: 1900px;
+    height: 100px;
+    background: #ffffff;
+    border-bottom: 2px solid #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    margin-left: 330px;
+    margin-right: auto;
+}
+
+#logo {
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	background-image: url(imagenes/logo.jpeg);
+	width: 200px;
+	height: 45px;
+	background-size: cover;
+}
+
+#nav {
+  position: absolute;
+  top: 35px;
+  right: 60px;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+}
+
+#nav ul li a:hover {
+  color: #22588A; 
+}
+
+
+#contenedor {
+	margin-top: 100px;
+	width: 1900px;
+	height: 500px;
+	background-image: url(imagenes/patron.jpg);
+	position: relative;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	background-size: cover;
+}
+
+#contenedor-texto {
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	width: 700px;
+}
+
+#contenedor-texto h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	color: #1D1D1B;
+	margin-top: 20px;
+}
+
+#contenedor-texto p {
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#boton {
+  background: #F1D400; 
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+#boton:hover {
+  background: #E52529; 
+  color: #fff;
+}
+
+#video {
+	position: absolute;
+	top: 90px;
+	right: 150px;
+	width: 600px;
+	height: 360px;
+	z-index: 10;
+}
+#services {
+  margin-top: 50px;
+  width: 1900px;
+  height: 300px;
+  text-align: center;
+  background: url("../imagenes/patron2.png") repeat;
+  position: relative;
+  padding-top: 40px;
+}
+
+#services h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+#service1, #service2, #service3 {
+  display: inline-block;
+  width: 400px;
+  height: 140px;
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 0 40px;
+  border-radius: 12px;
+  vertical-align: top;
+}
+
+#service1:hover, #service2:hover, #service3:hover {
+  background: #E52529;
+  color: #fff;
+}
+
+
+#mision, #vision, #valores, #equipo {
+  width: 1600px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #FEFEFC;
+  border: 2px solid #1D1D1B;
+}
+
+#mision h2, #vision h2, #valores h2, #equipo h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #22588A;
+}
+
+#valores ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+#equipo div {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+
+#footer {
+  width: 1900px;
+  height: 80px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+  font-size: 14px;
+  margin-top: 50px;
+}
